@@ -15,33 +15,12 @@
       android:orientation="vertical"
       >
 
-    <!--<TextView-->
-        <!--android:id="@+id/device_name"-->
-        <!--android:text="@string/device_name"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/device_id"-->
-        <!--android:text="@string/device_id"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
     <TextView
         android:id="@+id/chip_id"
         android:text="@string/chip_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
-
-    <!--<TextView-->
-        <!--android:id="@+id/connected"-->
-        <!--android:text="@string/connected"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
 
     <Space
         android:layout_width="wrap_content"
@@ -81,13 +60,6 @@
         android:layout_height="wrap_content"
         />
 
-    <!--<TextView-->
-        <!--android:id="@+id/accel_raw"-->
-        <!--android:text="@string/accel_raw"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
     <Space
         android:layout_width="wrap_content"
         android:layout_height="32dp"
@@ -100,13 +72,6 @@
         android:layout_height="wrap_content"
         />
 
-    <!--<TextView-->
-        <!--android:id="@+id/mph"-->
-        <!--android:text="@string/mph"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
     <TextView
         android:id="@+id/rpm"
         android:text="@string/rpm"
@@ -114,78 +79,12 @@
         android:layout_height="wrap_content"
         />
 
-    <!--<TextView-->
-        <!--android:id="@+id/temp_f"-->
-        <!--android:text="@string/temp_f"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/maf"-->
-        <!--android:text="@string/maf"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/maf2"-->
-        <!--android:text="@string/maf2"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/collision"-->
-        <!--android:text="@string/collision"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
-    <!--<TextView-->
-        <!--android:id="@+id/power"-->
-        <!--android:text="@string/power"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--/>-->
-
     <TextView
         android:id="@+id/battery_voltage"
         android:text="@string/battery_voltage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
-
-    <!--<Space-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="32dp"-->
-        <!--/>-->
-
-    <!--<Button-->
-        <!--android:id="@+id/reset_dtcs"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="RESET DTCS"-->
-        <!--/>-->
-
-    <!--<Button-->
-        <!--android:id="@+id/get_dtcs"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="GET DTCS"-->
-        <!--/>-->
-
-    <!--<Space-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="32dp"-->
-        <!--/>-->
-
-    <!--<Button-->
-        <!--android:id="@+id/supported_pids"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="SUPPORTED PIDS"-->
-        <!--/>-->
 
   </LinearLayout>
 </ScrollView>
