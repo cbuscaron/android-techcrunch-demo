@@ -1,0 +1,17 @@
+<resources>
+
+  <string name="app_name">Vinli Tech Crunch</string>
+
+  <string name="app_client_id">e89e978a-a1cf-4ee6-88a6-905d3f821e9f</string>
+  <string name="app_redirect_uri">https://btdemoapp.com</string>
+
+  <string name="chip_id">chip id</string>
+  <string name="choose_new_device">CHOOSE NEW DEVICE</string>
+  <string name="accel_x">accel x</string>
+  <string name="accel_y">accel y</string>
+  <string name="accel_z">accel z</string>
+  <string name="vin">VIN</string>
+  <string name="rpm">RPM</string>
+  <string name="battery_voltage">battery voltage</string>
+
+</resources>
